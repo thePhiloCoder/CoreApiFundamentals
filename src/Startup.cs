@@ -21,6 +21,7 @@ namespace CoreCodeCamp
       services.AddDbContext<CampContext>();
       services.AddScoped<ICampRepository, CampRepository>();
 
+
       services.AddMvc()
         .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
     }
